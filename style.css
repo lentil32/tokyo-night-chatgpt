@@ -35,13 +35,13 @@
     color: #a9b1d6 !important;
   }
 
-  a {
+  a:not(nav a) {
     color: #7aa2f7 !important;
     text-decoration: none !important;
   }
 
-  a:hover,
-  a:focus {
+  a:hover:not(nav a),
+  a:focus:not(nav a) {
     color: #7da6ff !important;
     text-decoration: underline !important;
   }
