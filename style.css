@@ -1,0 +1,98 @@
+/* ==UserStyle==
+@name         ChatGPT Tokyo Night Theme
+@namespace    https://github.com/lenntil/tokyo-night-chatgpt
+@version      1.0.0
+@description  A Tokyo Night theme for ChatGPT that uses dark blues and purples for a comfortable and stylish interface.
+@author       Starush
+@license      MIT License
+==/UserStyle== */
+
+@-moz-document domain("chat.openai.com") {
+  body,
+  body *:not(pre):not(code):not(pre *):not(code *) {
+    font-family: "Interop", sans-serif !important;
+  }
+
+  body,
+  .Layout__Container-sc-1kb03aj-0 {
+    background-color: #1a1b26 !important;
+  }
+
+  .dark\:bg-gray-800.font-semibold.p-2.bg-white.h-14.z-10.justify-between.items-center.flex.mb-1\.5.top-0.sticky {
+    background-color: #24283b !important;
+    color: #a9b1d6 !important;
+  }
+
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  span,
+  li {
+    color: #a9b1d6 !important;
+  }
+
+  a {
+    color: #7aa2f7 !important;
+    text-decoration: none !important;
+  }
+
+  a:hover,
+  a:focus {
+    color: #7da6ff !important;
+    text-decoration: underline !important;
+  }
+
+  input,
+  textarea {
+    background-color: #32344a !important;
+    color: #a9b1d6 !important;
+  }
+
+  pre,
+  .code-container,
+  .code-block,
+  pre > div {
+    background-color: #24283b !important;
+  }
+
+  code {
+    font-family: "Iosevka Comfy", monospace !important;
+    font-size: 16px !important;
+  }
+
+  .hljs-keyword,
+  .hljs-selector-tag,
+  .hljs-literal,
+  .hljs-section,
+  .hljs-link {
+    color: #7aa2f7 !important;
+  }
+
+  .hljs-string,
+  .hljs-title,
+  .hljs-name,
+  .hljs-type,
+  .hljs-attribute {
+    color: #9ece6a !important;
+  }
+
+  .hljs-comment,
+  .hljs-quote,
+  .hljs-meta {
+    color: #565f89 !important;
+  }
+
+  .hljs-doctag,
+  .hljs-formula {
+    color: #e0af68 !important;
+  }
+
+  ::selection {
+    background: #7aa2f7 !important;
+    color: #1a1b26 !important;
+  }
+}
