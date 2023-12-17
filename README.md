@@ -8,7 +8,7 @@
 
 - Tokyo Night is good!
 - For better responsive layout with improved readability.
-- More accessbile by people with vision problems.
+- More accessible by people with vision problems.
 
 ## Adjusting fonts
 
