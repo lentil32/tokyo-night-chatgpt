@@ -1,6 +1,14 @@
+# Tokyo Night Theme for ChatGPT
+
 ## Preview
 
 ![Preview Image](./preview.png)
+
+## Why?
+
+1. Tokyo Night is good!
+2. For better responsive layout with improved readability.
+3. More accessbile by people with vision problems.
 
 ## Notice
 
@@ -25,5 +33,6 @@ code {
 ```
 
 ## Reference
+
 - [Tokyo Night theme for Alacritty](https://github.com/zatchheems/tokyo-night-alacritty-theme)
 - [Tokyo Night theme for Helix](https://github.com/helix-editor/helix/wiki/Themes#night)
