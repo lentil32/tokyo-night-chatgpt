@@ -8,14 +8,18 @@
 ==/UserStyle== */
 
 @-moz-document domain("chat.openai.com") {
-  body,
-  body *:not(pre):not(code):not(pre *):not(code *) {
+  :root {
     font-family: "Interop", sans-serif !important;
   }
 
-  body,
-  .Layout__Container-sc-1kb03aj-0 {
+  main {
     background-color: #1a1b26 !important;
+  }
+
+  .text-base {
+    max-width: 82%;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
 
   .dark\:bg-gray-800.font-semibold.p-2.bg-white.h-14.z-10.justify-between.items-center.flex.mb-1\.5.top-0.sticky {
@@ -61,7 +65,12 @@
 
   code {
     font-family: "Iosevka Comfy", monospace !important;
-    font-size: 16px !important;
+    font-size: 15px !important;
+  }
+
+  /* Wrap Text in Code Blocks */
+  .\!whitespace-pre {
+    white-space: pre-wrap !important;
   }
 
   .hljs-keyword,
