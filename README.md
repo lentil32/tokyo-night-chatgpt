@@ -6,11 +6,11 @@
 
 ## Why?
 
-1. Tokyo Night is good!
-2. For better responsive layout with improved readability.
-3. More accessbile by people with vision problems.
+- Tokyo Night is good!
+- For better responsive layout with improved readability.
+- More accessbile by people with vision problems.
 
-## Notice
+## Adjusting fonts
 
 For better styles, adjusting fonts can be done. As default, `style.css` uses `Interop` and `Iosevka Comfy`. Change these with your favorite ones available locally.
 
@@ -31,6 +31,12 @@ code {
 
 /* Other stuffs... */
 ```
+
+## Compatiblility
+
+### This style sheet is compatible with:
+
+- KeepChatGPT by xcanwin
 
 ## Reference
 

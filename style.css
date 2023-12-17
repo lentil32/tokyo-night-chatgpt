@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         ChatGPT Tokyo Night Theme
 @namespace    https://github.com/lenntil/tokyo-night-chatgpt
-@version      1.0.1
+@version      1.0.2
 @description  A Tokyo Night theme for ChatGPT that uses dark blues and purples for a comfortable and stylish interface.
 @author       Starush
 @license      MIT License
@@ -51,6 +51,10 @@
   div,
   code {
     color: #a9b1d6 !important; /* tokyonight foreground */
+  }
+
+  .navlast {
+    color: #565f89 !important;
   }
 
   a:not(nav a) {
