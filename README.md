@@ -23,3 +23,7 @@ code {
 
 /* Other stuffs... */
 ```
+
+## Reference
+- [Tokyo Night theme for Alacritty](https://github.com/zatchheems/tokyo-night-alacritty-theme)
+- [Tokyo Night theme for Helix](https://github.com/helix-editor/helix/wiki/Themes#night)

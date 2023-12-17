@@ -22,20 +22,16 @@
     padding-right: 20px !important;
   }
 
-  .dark\:bg-gray-800.font-semibold.p-2.bg-white.h-14.z-10.justify-between.items-center.flex.mb-1\.5.top-0.sticky {
-    background-color: #24283b !important;
-    color: #a9b1d6 !important;
+  /* Stretch the input box to 95% */
+  form.stretch {
+    max-width: 65%;
   }
 
-  p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  span,
-  li {
+  .dark\:bg-gray-800.font-semibold.p-2.bg-white.h-14.z-10.justify-between.items-center.flex.mb-1\.5.top-0.sticky {
+    background-color: #1a1b26 !important;
+  }
+
+  div {
     color: #a9b1d6 !important;
   }
 
@@ -72,13 +68,14 @@
   .\!whitespace-pre {
     white-space: pre-wrap !important;
   }
-
+  /* Syntax Highlighting Colors */
   .hljs-keyword,
   .hljs-selector-tag,
   .hljs-literal,
   .hljs-section,
   .hljs-link {
     color: #7aa2f7 !important;
+    /* blue */
   }
 
   .hljs-string,
@@ -87,21 +84,61 @@
   .hljs-type,
   .hljs-attribute {
     color: #9ece6a !important;
+    /* light-green */
   }
 
   .hljs-comment,
   .hljs-quote,
   .hljs-meta {
     color: #565f89 !important;
+    /* comment */
   }
 
   .hljs-doctag,
   .hljs-formula {
     color: #e0af68 !important;
+    /* yellow */
+  }
+
+  .hljs-number,
+  .hljs-regexp,
+  .hljs-symbol,
+  .hljs-variable,
+  .hljs-template-variable,
+  .hljs-link {
+    color: #ff9e64 !important;
+    /* orange */
+  }
+
+  .hljs-deletion,
+  .hljs-addition {
+    color: #f7768e !important;
+    /* red */
+  }
+
+  .hljs-built_in,
+  .hljs-builtin-name {
+    color: #7dcfff !important;
+    /* cyan */
+  }
+
+  .hljs-meta,
+  .hljs-meta-string {
+    color: #cfc9c2 !important;
+    /* parameters */
+  }
+
+  .hljs-emphasis {
+    font-style: italic;
+  }
+
+  .hljs-strong {
+    font-weight: bold;
   }
 
   ::selection {
     background: #7aa2f7 !important;
+    /* blue */
     color: #1a1b26 !important;
   }
 }
