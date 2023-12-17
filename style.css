@@ -13,30 +13,60 @@
   }
 
   main {
-    background-color: #1a1b26 !important;
+    background-color: #1a1b26 !important; /* tokyonight background */
   }
 
-  .text-base {
-    max-width: 82%;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-  }
-
-  /* Stretch the input box to 95% */
+  /* Styles for large screens (default) */
+  .xl\:max-w-3xl,
+  .md\:max-w-3xl,
   form.stretch {
-    max-width: 65%;
+    max-width: 67%;
+  }
+
+  /* Styles for small screens */
+  @media screen and (max-width: 1024px) {
+    .xl\:max-w-3xl,
+    .md\:max-w-3xl {
+      max-width: calc(100vw - 260px);
+    }
+
+    form.stretch {
+      max-width: calc(100vw - 260px);
+    }
+  }
+
+  /* Styles for small screens */
+  @media screen and (max-width: 768px) {
+    .xl\:max-w-3xl,
+    .md\:max-w-3xl {
+      min-width: 80vw;
+    }
+
+    form.stretch {
+      min-width: 95vw;
+    }
   }
 
   .dark\:bg-gray-800.font-semibold.p-2.bg-white.h-14.z-10.justify-between.items-center.flex.mb-1\.5.top-0.sticky {
-    background-color: #1a1b26 !important;
+    background-color: #1a1b26 !important; /* tokyonight background */
   }
 
-  div {
-    color: #a9b1d6 !important;
+  p *,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  span,
+  li,
+  div,
+  code {
+    color: #a9b1d6 !important; /* tokyonight foreground */
   }
 
   a:not(nav a) {
-    color: #7aa2f7 !important;
+    color: #7aa2f7 !important; /* tokyonight blue */
     text-decoration: none !important;
   }
 
@@ -48,15 +78,15 @@
 
   input,
   textarea {
-    background-color: #32344a !important;
-    color: #a9b1d6 !important;
+    background-color: #30374b !important; /* tokyonight background_highlight */
+    color: #a9b1d6 !important; /* tokyonight foreground */
   }
 
   pre,
   .code-container,
   .code-block,
   pre > div {
-    background-color: #24283b !important;
+    background-color: #24283b !important; /* tokyonight background_highlight */
   }
 
   code {
@@ -68,64 +98,65 @@
   .\!whitespace-pre {
     white-space: pre-wrap !important;
   }
-  /* Syntax Highlighting Colors */
+
+  .hljs.language-markdown {
+    color: #a9b1d6; /* tokyonight foreground */
+  }
+
   .hljs-keyword,
   .hljs-selector-tag,
   .hljs-literal,
   .hljs-section,
   .hljs-link {
-    color: #7aa2f7 !important;
-    /* blue */
+    color: #7dcfff; /* Tokyo Night cyan, updated from blue */
+  }
+
+  .hljs-type {
+    color: #2ac3de !important; /* tokyonight teal */
   }
 
   .hljs-string,
   .hljs-title,
   .hljs-name,
-  .hljs-type,
   .hljs-attribute {
-    color: #9ece6a !important;
-    /* light-green */
+    color: #9ece6a !important; /* tokyonight light-green */
   }
 
   .hljs-comment,
-  .hljs-quote,
-  .hljs-meta {
-    color: #565f89 !important;
-    /* comment */
+  .hljs-quote {
+    color: #565f89 !important; /* tokyonight comment */
   }
 
   .hljs-doctag,
   .hljs-formula {
-    color: #e0af68 !important;
-    /* yellow */
+    color: #e0af68 !important; /* tokyonight yellow */
   }
 
-  .hljs-number,
+  .hljs-number {
+    color: #ff9e64 !important; /* tokyonight orange */
+  }
+
   .hljs-regexp,
   .hljs-symbol,
   .hljs-variable,
   .hljs-template-variable,
   .hljs-link {
-    color: #ff9e64 !important;
-    /* orange */
+    color: #ff9e64 !important; /* tokyonight orange */
   }
 
   .hljs-deletion,
   .hljs-addition {
-    color: #f7768e !important;
-    /* red */
+    color: #f7768e !important; /* tokyonight red */
   }
 
   .hljs-built_in,
   .hljs-builtin-name {
-    color: #7dcfff !important;
-    /* cyan */
+    color: #7dcfff !important; /* tokyonight cyan */
   }
 
   .hljs-meta,
   .hljs-meta-string {
-    color: #cfc9c2 !important;
-    /* parameters */
+    color: #cfc9c2 !important; /* tokyonight parameters */
   }
 
   .hljs-emphasis {
@@ -137,8 +168,7 @@
   }
 
   ::selection {
-    background: #7aa2f7 !important;
-    /* blue */
-    color: #1a1b26 !important;
+    background: #7aa2f7 !important; /* tokyonight blue */
+    color: #1a1b26 !important; /* tokyonight background */
   }
 }
