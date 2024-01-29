@@ -10,7 +10,7 @@
 - For better responsive layout with improved readability.
 - More accessible by people with vision problems.
 
-## Adjusting fonts
+## Adjusting fonts (optional)
 
 For better styles, adjusting fonts can be done. As default, `style.css` uses `Interop` and `Iosevka Comfy`. Change these with your favorite ones available locally.
 
